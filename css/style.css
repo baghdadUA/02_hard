@@ -31,3 +31,44 @@ header{
 header img{
     margin-top: 12px;   
 }
+.contentWrapp{
+    display: grid;
+    grid-template-columns: 235px 610px 175px;
+    grid-template-rows: 100%;
+    background: #990909;
+    font-size: 18px;
+}
+.left{
+    background: #7d0909;
+}
+.left p{
+    color: #e95b0e;
+    text-decoration: underline;
+}
+.content{
+    padding: 12px 2px 0px 2px;
+    color: #fff;
+}
+.right{
+  background: #e3dddd;
+}
+.rightTitle{
+    display: block;
+    text-align: center;
+    background: #bdbdbd;
+}
+.rightText{
+    display: block;
+    position: relative;
+    margin-top: 17px;
+}
+.rightText:before{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    width: 70px;
+    height: 1px;
+    background: #9a9a9a;
+    transform: translate(-50%, 0%);
+}
