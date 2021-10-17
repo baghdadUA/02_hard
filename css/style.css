@@ -5,6 +5,7 @@
 }
 .container{
     max-width: 1020px;
+    /* height: 100%; */
     margin: 0 auto;
     padding: 0;
     background: #990909;
@@ -71,4 +72,14 @@ header img{
     height: 1px;
     background: #9a9a9a;
     transform: translate(-50%, 0%);
+}
+footer{
+    padding: 14px 0 32px 0;
+}
+footer span{
+    display: block;
+    text-align: center;
+    background: #e95b11;
+    color: #fff;
+    font-size: 20px;
 }
