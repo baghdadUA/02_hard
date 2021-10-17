@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0;
+    background: #990909;
+}
+.container nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 15px 4px 15px;
+    background: #000;
+}
+.container nav a{
+    text-decoration: none;
+}
+.container nav a div{
+    display: inline-block;
+    text-align: center;
+}
+.container nav a div span{
+    color: #fff;
+}
+header{
+    text-align: center;
+}
+header img{
+    margin-top: 12px;   
+}
